@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Ziraat Katilim Mobil">
+    <test name="Login Oncesi Islemler">
+
+        <classes>
+            <class name="Base.BasePage" />
+            <class name="Base.BaseTest" />
+            <class name="Constants.Constants" />
+            <class name="Pages.BeforeLogin" />
+            <class name="Tests.BeforeLoginTest" />
+
+        </classes>
+    </test>
+
+
+</suite>
